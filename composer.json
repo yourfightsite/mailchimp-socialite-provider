@@ -1,0 +1,49 @@
+{
+    "name": "yourfightsite/mailchimp-socialite-provider",
+    "description": "A Mailchimp provider for Laravel Socialite.",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "mailchimp",
+        "oauth",
+        "socialite"
+    ],
+    "readme": "README.md",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Bean",
+            "email": "martin@yourfightsite.com",
+            "homepage": "https://www.yourfightsite.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/yourfightsite/mailchimp-socialite-provider/issues",
+        "source": "https://github.com/yourfightsite/mailchimp-socialite-provider"
+    },
+    "require": {
+        "illuminate/support": "^5.0|^6.0|^7.0|^8.0",
+        "laravel/socialite": "^4.0|^5.0"
+    },
+    "suggest": {
+        "yourfightsite/mailchimp-marketing-php": "A version of the Mailchimp Marketing API that is actually installable."
+    },
+    "autoload": {
+        "psr-4": {
+            "YourFightSite\\Socialite\\Mailchimp\\": "src/"
+        }
+    },
+    "prefer-stable": true,
+    "config": {
+        "platform-check": false,
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YourFightSite\\Socialite\\Mailchimp\\MailchimpServiceProvider"
+            ]
+        }
+    }
+}
