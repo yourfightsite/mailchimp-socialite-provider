@@ -37,7 +37,7 @@ public function handleProviderCallback(Request $request)
 ```
 
 ## License
-Licensed under the [MIT License][LICENSE.md].
+Licensed under the [MIT License](LICENSE.md).
 
 [1]: https://github.com/laravel/socialite
 [2]: https://getcomposer.org
